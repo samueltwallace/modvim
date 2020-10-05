@@ -25,4 +25,13 @@ let g:vimtex_viewer_general='zathura'
 let g:vimtex_view_method='zathura'
 let g:tex_flavor='latex'
 
+Plug 'dylanaraps/wal.vim'
+
+Plug 'neoclide/coc.nvim'
+
 call plug#end()
+
+
+set spell spelllang=en_us
+
+colorscheme wal
