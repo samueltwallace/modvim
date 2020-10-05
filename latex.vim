@@ -1,7 +1,7 @@
 
 
 
-call plug#begin('$HOME/.config/nvim/latexedit')
+call plug#begin('$HOME/.config/nvim/plugins')
 
 Plug 'SirVer/UltiSnips'
 
