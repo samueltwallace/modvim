@@ -29,9 +29,17 @@ Plug 'dylanaraps/wal.vim'
 
 Plug 'neoclide/coc.nvim'
 
+Plug 'junegunn/goyo.vim'
+
+let g:goyo_linenr=1
+
 call plug#end()
 
 
 set spell spelllang=en_us
 
 colorscheme wal
+
+let mapleader=" "
+
+nnoremap <leader>gg :Goyo<CR>
