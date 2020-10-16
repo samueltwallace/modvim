@@ -43,3 +43,6 @@ colorscheme wal
 let mapleader=" "
 
 nnoremap <leader>gg :Goyo<CR>
+nnoremap <leader>l :Lines<CR>
+
+set number
