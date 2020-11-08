@@ -1,6 +1,3 @@
-
-
-
 call plug#begin('$HOME/.config/nvim/plugins')
 
 Plug 'SirVer/UltiSnips'
@@ -44,5 +41,8 @@ let mapleader=" "
 
 nnoremap <leader>gg :Goyo<CR>
 nnoremap <leader>l :Lines<CR>
+
+nmap ]e <Plug>(coc-diagnostic-next-error)
+nmap [e <Plug>(coc-diagnostic-prev-error)
 
 set number
