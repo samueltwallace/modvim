@@ -14,6 +14,7 @@ colorscheme wal
 nmap ]e <Plug>(coc-diagnostic-next-error)
 nmap [e <Plug>(coc-diagnostic-prev-error)
 
+let g:UltiSnipsEditSplit="vertical"
 
 set number
 
