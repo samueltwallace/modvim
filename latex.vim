@@ -26,9 +26,6 @@ Plug 'dylanaraps/wal.vim'
 
 Plug 'neoclide/coc.nvim'
 
-Plug 'junegunn/goyo.vim'
-
-let g:goyo_linenr=1
 
 call plug#end()
 
@@ -39,7 +36,6 @@ colorscheme wal
 
 let mapleader=" "
 
-nnoremap <leader>gg :Goyo<CR>
 nnoremap <leader>l :Lines<CR>
 
 nmap ]e <Plug>(coc-diagnostic-next-error)
