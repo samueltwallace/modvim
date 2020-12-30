@@ -1,0 +1,2 @@
+set lazyredraw
+set number

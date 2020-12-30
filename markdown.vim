@@ -1,3 +1,4 @@
+source $HOME/.config/modvim/all.vi
 
 call plug#begin('$HOME/.config/nvim/plugins')
 

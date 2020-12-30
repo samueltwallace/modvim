@@ -4,8 +4,9 @@ call plug#begin('$HOME/.config/nvim/plugins')
 
 Plug 'dylanaraps/wal.vim'
 
+Plug 'ziglang/zig.vim'
+
 
 call plug#end()
 
-set number
 colorscheme wal
